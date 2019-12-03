@@ -28,6 +28,9 @@ function App() {
           Hello! <br/>
           <FormattedMessage id="app.text"/> <br/><br/>
           <FormattedHTMLMessage id="app.text"/>
+          <br/>
+          <FormattedMessage id="app.learn-react-link"/> <br/><br/>
+          <FormattedHTMLMessage id="app.learn-react-link"/>
        </div>
     </IntlProvider>
   );
