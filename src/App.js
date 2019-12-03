@@ -2,10 +2,8 @@ import React from 'react';
 import './App.css';
 import {IntlProvider} from "react-intl";
 import {FormattedMessage, FormattedHTMLMessage} from 'react-intl';
-// import { addLocaleData } from "react-intl";
-// import locale_en from 'react-intl/locale-data/en';
-// import locale_de from 'react-intl/locale-data/de';
 
+import Parent from "./components/parent"
 
 import messages_de from "./translations/de.json";
 import messages_en from "./translations/en.json";
@@ -31,6 +29,8 @@ function App() {
           <br/>
           <FormattedMessage id="app.learn-react-link"/> <br/><br/>
           <FormattedHTMLMessage id="app.learn-react-link"/>
+          <br/> <br/>
+          <Parent/>
        </div>
     </IntlProvider>
   );
